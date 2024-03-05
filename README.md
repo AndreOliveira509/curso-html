@@ -13,5 +13,8 @@ Modulo 1
 <a href="https://andreoliveira509.github.io/curso-html/modulo1/ex008/index.html">Executar o exercício 008</a><br>
 <a href="https://andreoliveira509.github.io/curso-html/modulo1/ex009/index.html">Executar o exercício 009</a><br>
 
+Modulo 2
 
+<a href="https://andreoliveira509.github.io/curso-html/modulo2/ex001/degrade.html">Executar o exercício 001</a><br>
+<a href="https://andreoliveira509.github.io/curso-html/modulo2/ex002/index.html">Executar o exercício 002</a><br>
   
