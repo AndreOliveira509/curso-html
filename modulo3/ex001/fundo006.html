@@ -8,21 +8,29 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('img/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            background: #000 url('img/wallpaper002.jpg') center top/cover no-repeat fixed;
+
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
             border-radius: 14px;
         }
+
+        /* Shorthand - Background
+         color > image > position > / > size > repeat > attachment. 
+        */
     </style>
 </head>
 
@@ -150,7 +158,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Inventore placeat quod mollitia iusto, hic nemo ad facilis
             dolores ipsum enim. Suscipit error numquam a est fuga veniam quod sed vitae!
-            
+
         </p>
     </main>
 </body>
