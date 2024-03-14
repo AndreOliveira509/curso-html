@@ -27,4 +27,6 @@ Modulo 2
 
 Modulo 3
 
+<a href="https://andreoliveira509.github.io/curso-html/modulo3/background/fundo001.html">Executar o exercício 001</a><br>
+<a href="https://andreoliveira509.github.io/curso-html/modulo3/background/fundo002.html">Executar o exercício 002</a><br>
   
