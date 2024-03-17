@@ -7,7 +7,7 @@
     <title>tabela complexa</title>
     <style>
         table {
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
         }
 
@@ -26,16 +26,24 @@
         td.num {
             text-align: right;
         }
+
+        table caption {
+            font-size: 1.8em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
+        }
     </style>
 </head>
 
 <body>
     <h1>uso tabela grande</h1>
     <table>
+        <caption>População dos Estados</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -54,7 +62,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>84 352 783</strong></td>
             </tr>
         </tfoot>
