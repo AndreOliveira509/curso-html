@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+<!--
+    Post: dados sensiveis, q passa de 3000 letras e enviar arquivos
+    Get: dados mais gerais, como uma pesquisa
+-->
 <body>
     <h1>Meu primeiro fromualário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
     <p>
             <label for="text">Nome:</label> <input type="text" name="nome" id="nome"></p>
     <p>
