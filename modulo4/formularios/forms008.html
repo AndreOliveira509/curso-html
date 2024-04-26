@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inum">Numero 1:  </label>
+            <input type="text" name="num" id="inum" min="0" max="50" required
+            oninput="isoma.innerHTML = Number(inum.value) + Number(indois.value)">
+        </p>
+        <p>
+            <label for="indois">Numero 2:  </label>
+            <input type="text" name="ndois" id="indois" min="0" max="50" required oninput="isoma.innerHTML = Number(inum.value) + Number(indois.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
